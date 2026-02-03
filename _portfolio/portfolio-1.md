@@ -4,7 +4,6 @@ excerpt: "A global-aware autoregressive framework for multimodal few-shot font g
 collection: portfolio
 ---
 
-## Beyond Patches: Global-aware Autoregressive Model for Multimodal Few-Shot Font Generation  
 **Haonan Cai**, Yuxuan Luo, Zhouhui Lian  
 
 **Paper:** [arXiv:2601.01593](https://arxiv.org/abs/2601.01593)

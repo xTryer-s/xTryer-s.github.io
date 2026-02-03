@@ -1,10 +1,9 @@
 ---
-title: "MMMG: A Benchmark for Text-to-Image Reasoning"
+title: "MMMG: A Massive, Multidisciplinary, Multi-Tier Generation Benchmark for Text-to-Image Reasoning  "
 excerpt: "A massive, multidisciplinary benchmark for evaluating multimodal reasoning in knowledge image generation across disciplines, educational levels, and visual formats.<br/><img src='/images/MMMG.png' style='width: 80%; max-width: 720px;'>"
 collection: portfolio
 ---
 
-## MMMG: A Massive, Multidisciplinary, Multi-Tier Generation Benchmark for Text-to-Image Reasoning  
 Yuxuan Luo, Yuhui Yuan, Junwen Chen, **Haonan Cai**, Ziyi Yue, Yuwei Yang, Fatima Zohra Daha, Ji Li, Zhouhui Lian  
 
 **Paper:** [arXiv:2506.10963](https://arxiv.org/abs/2506.10963)
