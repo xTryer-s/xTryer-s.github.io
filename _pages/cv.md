@@ -44,7 +44,7 @@ Research Intern
 - Adopted voxel representation with **surface normal priors** for geometric consistency
 - Enabled automatic reconstruction from sparse archaeological fragments
 
-**CVToolkit: C++-based Image and Video Processing System**  
+**CVToolkit: C++ Image and Video Processing System**  
 *May 2024 – Jun. 2024*  
 - Developed a C++ image & video editing toolkit
 - Implemented image enhancement, filters, GIF generation, and video editing
