@@ -54,7 +54,7 @@ Research Intern
 
 ## Publications
 **Beyond Patches: Global-aware Autoregressive Model for Multimodal Few-Shot Font Generation**  
-*CVPR 2026 Submission(Under Review)*  
+*CVPR 2026 Submission (Under Review)*  
 [Paper Link](https://arxiv.org/abs/2601.01593)
 
 - Proposed **GAR-Font**, a global-aware autoregressive framework that models font generation beyond patch-level representations.
