@@ -23,7 +23,7 @@ repository               : "xTryer-s/xTryer-s.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "avatar.jpg"
   name             : "Haonan Cai"
   pronouns         : # example: "she/her"  
   bio              : "To be a tryer for X."
