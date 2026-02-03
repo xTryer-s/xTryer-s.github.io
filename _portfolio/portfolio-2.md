@@ -7,6 +7,8 @@ collection: portfolio
 ## MMMG: A Massive, Multidisciplinary, Multi-Tier Generation Benchmark for Text-to-Image Reasoning  
 Yuxuan Luo, Yuhui Yuan, Junwen Chen, **Haonan Cai**, Ziyi Yue, Yuwei Yang, Fatima Zohra Daha, Ji Li, Zhouhui Lian  
 
+**Paper:** [arXiv:2506.10963](https://arxiv.org/abs/2506.10963)
+
 ### Overview
 We introduce **knowledge image generation** as a new task to systematically evaluate the reasoning capability of modern text-to-image generation models. Knowledge images—such as diagrams, charts, and mind maps—play a fundamental role in human learning, as supported by **dual-coding theory** and the **picture-superiority effect**. Generating such images requires models to integrate **world knowledge**, **logical reasoning**, and **pixel-level grounding** into clear and explanatory visuals, posing challenges beyond conventional image synthesis.
 
