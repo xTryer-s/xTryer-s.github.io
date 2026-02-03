@@ -1,6 +1,6 @@
 ---
 title: "Beyond Patches: Global-aware Autoregressive Font Generation"
-excerpt: "A global-aware autoregressive framework for multimodal few-shot font generation, enabling coherent structure and flexible language-guided style control.<br/><img src='/images/GAR_Font.jpg' style='width: 80%; max-width: 380px;'>"
+excerpt: "A global-aware autoregressive framework for multimodal few-shot font generation, enabling coherent structure and flexible language-guided style control.<br/><img src='/images/GAR_Font.jpg' style='width: 80%; max-width: 540px;'>"
 collection: portfolio
 ---
 
