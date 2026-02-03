@@ -10,6 +10,7 @@ redirect_from:
 {% include base_path %}
 
 ## Education
+
 **Peking University**  
 B.S. in Information and Computing Science, School of EECS  
 *Sep. 2023 – Present*  
@@ -23,6 +24,7 @@ B.S. in Information and Computing Science, School of EECS
 ---
 
 ## Research & Internship Experience
+
 **Wangxuan Institute of Computer Technology, Peking University**  
 Research Intern  
 *Sep. 2024 – Feb. 2026*  
@@ -33,6 +35,7 @@ Research Intern
 ---
 
 ## Projects
+
 **From LineArt to Yungang Grottoes: Multi-Structural Conditioned Image Generation**  
 *Nov. 2025 – Jan. 2026*  
 - Built a structure-guided image generation framework based on Stable Diffusion + ControlNet
@@ -54,6 +57,7 @@ Research Intern
 ---
 
 ## Publications
+
 **Beyond Patches: Global-aware Autoregressive Model for Multimodal Few-Shot Font Generation**  
 *CVPR 2026 Submission (Under Review)*  
 [Paper Link](https://arxiv.org/abs/2601.01593)
