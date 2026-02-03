@@ -1,6 +1,6 @@
 ---
 title: "MMMG: A Benchmark for Text-to-Image Reasoning"
-excerpt: "A massive, multidisciplinary benchmark for evaluating multimodal reasoning in knowledge image generation across disciplines, educational levels, and visual formats.<br/><img src='/images/MMMG.png' style='width: 80%; max-width: 380px;'>"
+excerpt: "A massive, multidisciplinary benchmark for evaluating multimodal reasoning in knowledge image generation across disciplines, educational levels, and visual formats.<br/><img src='/images/MMMG.png' style='width: 80%; max-width: 540px;'>"
 collection: portfolio
 ---
 
