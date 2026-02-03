@@ -46,7 +46,7 @@ Research Intern
 
 **CVToolkit: C++-based Image and Video Processing System**  
 *May 2024 – Jun. 2024*  
-- Developed a C++-based image & video editing toolkit
+- Developed a C++ image & video editing toolkit
 - Implemented image enhancement, filters, GIF generation, and video editing
 - Integrated **OpenCV** and **FFmpeg** for video decoding, filtering, and playback control
 
