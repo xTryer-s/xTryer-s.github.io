@@ -18,6 +18,7 @@ B.S. in Information and Computing Science, School of EECS
 - Relevant Courses:  
   Computer Vision, Multimodal Learning, Visual Computing, 
   Machine Learning, Algorithm Design and Analysis
+
 ---
 
 ## Research & Internship Experience
@@ -54,7 +55,7 @@ Research Intern
 ## Publications
 **Beyond Patches: Global-aware Autoregressive Model for Multimodal Few-Shot Font Generation**  
 *CVPR 2026 Submission(Under Review)*  
-[Paper](https://arxiv.org/abs/2601.01593)
+[Paper Link](https://arxiv.org/abs/2601.01593)
 
 - Proposed **GAR-Font**, a global-aware autoregressive framework for few-shot font generation
 - Designed a CNN–ViT hybrid tokenizer for global style and structure modeling
@@ -63,7 +64,7 @@ Research Intern
 
 **MMMG: A Massive, Multidisciplinary, Multi-Tier Generation Benchmark for Text-to-Image Reasoning**  
 *NeurIPS 2025 Datasets and Benchmarks Track*  
-[Paper](https://arxiv.org/abs/2506.10963)
+[Paper Link](https://arxiv.org/abs/2506.10963)
 
 - Introduced **Knowledge Image Generation** as a new evaluation task
 - Built a large-scale benchmark spanning **10 disciplines** and **6 educational levels**
