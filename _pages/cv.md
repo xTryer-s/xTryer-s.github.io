@@ -16,8 +16,9 @@ B.S. in Information and Computing Science, School of EECS
 
 - GPA: **3.77 / 4.0** 
 - Relevant Courses:  
-  Computer Vision, Multimodal Learning, Visual Computing, 
-  Machine Learning, Algorithm Design and Analysis
+  Computer Vision, Multimodal Learning, Image Processing,<br>
+  Visual Computing, Machine Learning, Algorithm Design and Analysis
+
 
 ---
 
