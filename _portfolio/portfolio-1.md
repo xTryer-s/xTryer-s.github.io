@@ -1,11 +1,13 @@
 ---
 title: "Beyond Patches: Global-aware Autoregressive Font Generation"
-excerpt: "A global-aware autoregressive framework for multimodal few-shot font generation, enabling coherent structure and flexible language-guided style control.<br/><img src='/images/GAR_Font.jpeg'>"
+excerpt: "A global-aware autoregressive framework for multimodal few-shot font generation, enabling coherent structure and flexible language-guided style control.<br/><img src='/images/GAR_Font.jpg'>"
 collection: portfolio
 ---
 
 ## Beyond Patches: Global-aware Autoregressive Model for Multimodal Few-Shot Font Generation  
 **Haonan Cai**, Yuxuan Luo, Zhouhui Lian  
+
+**Paper:** [arXiv:2506.10963](https://arxiv.org/abs/2506.10963)
 
 ### Overview
 Manual font design requires translating an abstract stylistic concept into a complete and coherent glyph set, a process that is both time-consuming and expertise-intensive. This challenge is further amplified in **Few-shot Font Generation (FFG)**, where only a handful of reference glyphs are available. Existing methods often struggle to simultaneously preserve **global stylistic consistency** and **local structural correctness**, especially under limited supervision.
