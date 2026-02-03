@@ -30,8 +30,10 @@ author:
   location         : "Beijing, China"
   employer         : "Peking University"
   # uri              : # URL
-  email            : "pku_xtryer@163.com" 
-  email            : "2300012968@stu.pku.edu.cn"
+  email:
+    - "pku_xtryer@163.com"
+    - "2300012968@stu.pku.edu.cn"
+
 
   # # Academic websites
   # academia         : # URL
