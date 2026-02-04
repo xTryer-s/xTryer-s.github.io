@@ -27,7 +27,7 @@ B.S. in Information and Computing Science, School of EECS
 
 **Wangxuan Institute of Computer Technology, Peking University**  
 Research Intern  
-*Sep. 2024 – Feb. 2026*  
+*Sep. 2024 – Present*  
 
 - Conduct research on computer vision and generative models
 - Collaborate on academic projects under supervision of **Zhouhui Lian**
