@@ -34,7 +34,7 @@ Research Intern
 
 ---
 
-## Projects
+## Course Projects
 
 **From LineArt to Yungang Grottoes: Multi-Structural Conditioned Image Generation**  
 *Nov. 2025 – Jan. 2026*  
