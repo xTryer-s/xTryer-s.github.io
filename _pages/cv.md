@@ -80,7 +80,7 @@ Research Intern
 - **Award for Academic Excellence**, Peking University (2024)
 - **BYD Scholarship**, Peking University (2024)
 - **Award for Scientific Research**, Peking University (2025)
-- **Tianchuang Scholarship**, School of EECS, Peking University (2025)
+- **Tianchuang Scholarship**, Peking University (2025)
 
 ---
 
