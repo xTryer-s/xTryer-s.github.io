@@ -8,6 +8,8 @@ Yuxuan Luo, Yuhui Yuan, Junwen Chen, **Haonan Cai**, Ziyi Yue, Yuwei Yang, Fatim
 
 **Paper:** [arXiv:2506.10963](https://arxiv.org/abs/2506.10963)
 
+**Project:** [MMMG](https://mmmgbench.github.io/)
+
 ### Overview
 We introduce **knowledge image generation** as a new task to systematically evaluate the reasoning capability of modern text-to-image generation models. Knowledge images—such as diagrams, charts, and mind maps—play a fundamental role in human learning, as supported by **dual-coding theory** and the **picture-superiority effect**. Generating such images requires models to integrate **world knowledge**, **logical reasoning**, and **pixel-level grounding** into clear and explanatory visuals, posing challenges beyond conventional image synthesis.
 
