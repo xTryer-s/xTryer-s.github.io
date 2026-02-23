@@ -1,11 +1,459 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GAR-Font</title>
-</head>
-<body>
-    <h1>Coming Soon...</h1>
-</body>
-</html>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Primary Meta Tags -->
+  <!-- TODO: Replace with your paper title and author names -->
+  <meta name="title" content="Beyond Patches: Global-aware Autoregressive Model for Multimodal Few-Shot Font Generation">
+  <!-- TODO: Write a compelling 150-160 character description of your research -->
+  <meta name="description" content="Beyond Patches: Global-aware Autoregressive Model for Multimodal Few-Shot Font Generation">
+  <!-- TODO: Add 5-10 relevant keywords for your research area -->
+  <meta name="keywords" content="GAR-Font, Few-Shot-Font-Generation, Font-Synthesis, Autoregressive-Model">
+  <!-- TODO: List all authors -->
+  <meta name="author" content="Haonan Cai, Yuxuan Luo, Zhouhui Lian">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+
+  <!-- TODO: Replace with your paper title and authors -->
+  <title>Beyond Patches: Global-aware Autoregressive Model for Multimodal Few-Shot Font Generation</title>
+  
+  <!-- Favicon and App Icons -->
+  <link rel="icon" type="image/x-icon" href="/projects_pages/GAR_Font/static/images/favicon.ico">
+  <link rel="apple-touch-icon" href="/projects_pages/GAR_Font/static/images/favicon.ico">
+  
+  <!-- Critical CSS - Load synchronously -->
+  <link rel="stylesheet" href="/projects_pages/GAR_Font/static/css/bulma.min.css">
+  <link rel="stylesheet" href="/projects_pages/GAR_Font/static/css/index.css">
+  
+  <!-- Non-critical CSS - Load asynchronously -->
+  <link rel="preload" href="/projects_pages/GAR_Font/static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="/projects_pages/GAR_Font/static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="/projects_pages/GAR_Font/static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  <!-- Fallback for browsers that don't support preload -->
+  <noscript>
+    <link rel="stylesheet" href="/projects_pages/GAR_Font/static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="/projects_pages/GAR_Font/static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="/projects_pages/GAR_Font/static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  
+  <!-- Fonts - Optimized loading -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Defer non-critical JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="/projects_pages/GAR_Font/static/js/fontawesome.all.min.js"></script>
+  <script defer src="/projects_pages/GAR_Font/static/js/bulma-carousel.min.js"></script>
+  <script defer src="/projects_pages/GAR_Font/static/js/bulma-slider.min.js"></script>
+  <script defer src="/projects_pages/GAR_Font/static/js/index.js"></script>
+  
+
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+
+  <main id="main-content">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <!-- TODO: Replace with your paper title -->
+            <h1 class="title is-2 publication-title">Beyond Patches: Global-aware Autoregressive Model for Multimodal Few-Shot Font Generation</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- TODO: Replace with your paper authors and their personal links -->
+              <span class="author-block">
+                <a href="https://xtryer-s.github.io/" target="_blank">Haonan Cai<sup>*</sup></a>,</span>
+                <span class="author-block">
+                  <a href="https://loyuxr.github.io/" target="_blank">Yuxuan Luo<sup>*</sup></a>,</span>
+                  <span class="author-block">
+                    <a href="https://www.wict.pku.edu.cn/zlian/" target="_blank">Zhouhui Lian<sup>†</sup></a>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <!-- TODO: Replace with your institution and conference/journal info -->
+                    <span class="author-block">Wangxuan Institute of Computer Technology, Peking University<br><span class="conference-tag">Accepted to CVPR 2026</span>
+                    <!-- TODO: Remove this line if no equal contribution -->
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution, <sup>†</sup>Indicates Corresponding Author</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- TODO: Update with your arXiv paper ID -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2601.01593" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                  <!-- TODO: Replace with your GitHub repository URL -->
+                  <span class="link-block">
+                    <a href="https://github.com/xTryer-s/GAR-Font" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code(coming soon)</span>
+                  </a>
+                </span>
+
+                <!-- TODO: Update with your arXiv paper ID -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2601.01593" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="/projects_pages/GAR_Font/static/images/teaser.jpg" alt="Teaser Image" class="teaser-img" />
+      <h2 class="subtitle has-text-centered">
+        GAR-Font results under visual and multimodal few-shot settings. The poem reflects the key contributions of our model: global-aware tokenization for style fidelity, multimodal style encoding for text-image control, reduced reference requirements, and an autoregressive design that enables controllable high-quality font synthesis.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <!-- TODO: Replace with your paper abstract -->
+          <p>
+            Manual font design is an intricate process that transforms a stylistic visual concept into a coherent glyph set. This challenge persists in automated Few-shot Font Generation (FFG), where models often struggle to preserve both the structural integrity and stylistic fidelity from limited references. While autoregressive (AR) models have demonstrated impressive generative capabilities, their application to FFG is constrained by conventional patch-level tokenization, which neglects global dependencies crucial for coherent font synthesis. Moreover, existing FFG methods remain within the image-to-image paradigm, relying solely on visual references and overlooking the role of language in conveying stylistic intent during font design. To address these limitations, we propose GAR-Font, a novel AR framework for multimodal few-shot font generation. GAR-Font introduces a global-aware tokenizer that effectively captures both local structures and global stylistic patterns, a multimodal style encoder offering flexible style control through a lightweight language-style adapter without requiring intensive multimodal pretraining, and a post-refinement pipeline that further enhances structural fidelity and style coherence. Extensive experiments show that GAR-Font outperforms existing FFG methods, excelling in maintaining global style faithfulness and achieving higher-quality results with textual stylistic guidance.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+
+
+<!-- Overview of GAR-Font -->
+<section class="hero is-small">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      
+      <h2 class="title is-3 has-text-centered">Overview of GAR-Font</h2>
+      
+      <img src="/projects_pages/GAR_Font/static/images/GAR-Font_model_overview.png"
+           alt="Overview architecture of GAR-Font"
+           height="100%" />
+
+      <h2 class="subtitle has-text-centered">
+        The overall architecture of GAR-Font. It comprises a global-aware tokenizer (G-Tok) and an autoregressive generator (AR Generator), equipped with a multimodal style encoder.
+      </h2>
+
+    </div>
+  </div>
+</section>
+<!-- End Overview -->
+
+
+
+<!-- Global-aware Tokenizer -->
+<section class="section">
+  <div class="container is-max-desktop">
+    
+    <h2 class="title is-3 has-text-centered">Global-aware Tokenizer (G-Tok)</h2>
+    
+    <div class="hero-body">
+      <img src="/projects_pages/GAR_Font/static/images/G-Tok_model_overview.png"
+           alt="Global-aware Tokenizer architecture"
+           style="max-width: 100%; height: auto;" />
+      
+      <h2 class="subtitle has-text-centered">
+        Architecture of the Global-aware Tokenizer (G-Tok). A hybrid CNN–ViT encoder extracts local stroke details and global style context, followed by vector quantization and a hybrid decoder.
+      </h2>
+    </div>
+
+    <div class="content has-text-justified">
+      <p>
+        The Global-aware Tokenizer (G-Tok) discretizes glyph images into structured visual tokens while preserving both fine-grained stroke geometry and global stylistic fidelity. 
+        A hybrid CNN–ViT encoder first captures local structural details through convolutional layers and aggregates long-range dependencies through attention mechanism. 
+        The resulting latent representations are quantized into a learnable codebook, enabling compact yet expressive token sequences. 
+        A hybrid decoder reconstructs glyphs while modeling sequential dependencies, ensuring that both structural fidelity and overall style faithfulness are maintained. 
+        This design provides a strong discrete representation foundation for autoregressive font generation.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- AR Generator with Multimodal Style Encoder -->
+<section class="section">
+  <div class="container is-max-desktop">
+    
+    <h2 class="title is-3 has-text-centered">
+      AR Generator with Multimodal Style Encoder
+    </h2>
+
+    <div class="columns is-centered">
+      
+      <div class="column">
+        <img src="/projects_pages/GAR_Font/static/images/GAR-Font_Vision_Only_Train.png"
+             alt="Visual Pretraining Stage"
+             style="max-width: 100%; height: auto;" />
+        <p class="has-text-centered is-size-6">
+          (a) Visual Pretraining: learning a stable content–style space from visual references.
+        </p>
+      </div>
+
+      <div class="column">
+        <img src="/projects_pages/GAR_Font/static/images/GAR-Font_Multimodal_Train.png"
+             alt="Multimodal Adaptation Stage"
+             style="max-width: 100%; height: auto;" />
+        <p class="has-text-centered is-size-6">
+          (b) Vision–Language Adaptation: aligning textual guidance with visual style representations via a lightweight adapter.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="content has-text-justified">
+      <p>
+        Building upon the discrete representations provided by G-Tok, the autoregressive (AR) generator performs conditional sequential token prediction for glyph synthesis. 
+        In the first stage, the generator and content–style aggregator are trained under purely visual conditions to establish a stable and expressive style–content representation space. 
+        In the second stage, a lightweight vision–language adapter is introduced to extend the visual style encoder into a multimodal one. 
+        Text embeddings are aligned with visual style features through cross-attention, enabling flexible text-guided style modulation without disrupting the learned visual priors. 
+        Together, this two-stage paradigm ensures robust visual generation while supporting controllable multimodal style specification.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Post-refinement -->
+<section class="section">
+  <div class="container is-max-desktop">
+    
+    <h2 class="title is-3 has-text-centered">
+      Post-refinement for GAR-Font
+    </h2>
+
+    <div class="content has-text-justified">
+      <p>
+        To further improve few-shot style generalization and structural accuracy, GAR-Font introduces a two-stage post-refinement strategy. 
+        
+        The first stage, <strong>Novel Font Adaptation (NFA)</strong>, performs lightweight adaptation on unseen font styles by updating only the LoRA layers of the Transformer generator. 
+        Using a mixed token-level cross-entropy and pixel-level reconstruction loss, NFA enables stable few-shot specialization while preserving the pretrained generator’s prior knowledge. 
+        This significantly enhances style fidelity when only a few reference glyphs are available.
+        The second stage, <strong>Structural Enhancement (SE)</strong>, further improves glyph readability and structural precision. 
+        The generator is treated as a policy that produces token sequences, and decoded glyphs are evaluated with a composite reward composed of OCR confidence and style consistency. 
+        Group-relative advantage normalization is applied to stabilize training, and only the LoRA layers are updated through advantage-weighted likelihood maximization with KL regularization. 
+        This reinforcement-based refinement reduces structural distortions while maintaining stylistic fidelity, achieving clearer and more accurate glyph synthesis.
+      </p>
+
+    </div>
+
+  </div>
+</section>
+<!-- End Post-refinement -->
+<section class="section">
+  <div class="container is-max-desktop">
+    
+    <h2 class="title is-3 has-text-centered">Quantitative Results</h2>
+
+    <div class="hero-body">
+      <img src="/projects_pages/GAR_Font/static/images/Main_Table1.png"
+           alt="Vision-only Few-shot Font Generation Results"
+           style="max-width: 100%; height: auto;" />
+      
+      <h2 class="subtitle has-text-centered">
+        Vision-only FFG. GAR-Font consistently outperforms existing methods in structural accuracy and style fidelity across UFSC and UFUC datasets.
+      </h2>
+    </div>
+
+    <div class="hero-body" style="margin-top: 2rem;">
+      <img src="/projects_pages/GAR_Font/static/images/Main_Table2.png"
+           alt="Multimodal Few-shot Font Generation Results"
+           style="max-width: 100%; height: auto;" />
+      
+      <h2 class="subtitle has-text-centered">
+        Multimodal FFG. Incorporating textual style descriptions improves performance over vision-only baselines and reduces reliance on visual references.
+      </h2>
+    </div>
+
+  </div>
+</section>
+
+<!-- Generations of GAR-Font -->
+<section class="section">
+  <div class="container is-max-desktop">
+    
+    <h2 class="title is-3 has-text-centered">Generations of GAR-Font</h2>
+
+    <div class="hero is-small">
+      <div class="hero-body">
+        <div id="results-carousel" class="carousel results-carousel">
+
+          <div class="item">
+            <img src="/projects_pages/GAR_Font/static/images/sample_sheet1.png"
+                 alt="GAR-Font generation sample 1"
+                 loading="lazy"
+                 style="max-width: 100%; height: auto;" />
+          </div>
+
+          <div class="item">
+            <img src="/projects_pages/GAR_Font/static/images/sample_sheet2.png"
+                 alt="GAR-Font generation sample 2"
+                 loading="lazy"
+                 style="max-width: 100%; height: auto;" />
+          </div>
+
+          <div class="item">
+            <img src="/projects_pages/GAR_Font/static/images/sample_sheet3.png"
+                 alt="GAR-Font generation sample 3"
+                 loading="lazy"
+                 style="max-width: 100%; height: auto;" />
+          </div>
+
+          <div class="item">
+            <img src="/projects_pages/GAR_Font/static/images/sample_sheet4.png"
+                 alt="GAR-Font generation sample 4"
+                 loading="lazy"
+                 style="max-width: 100%; height: auto;" />
+          </div>
+
+          <div class="item">
+            <img src="/projects_pages/GAR_Font/static/images/sample_sheet5.png"
+                 alt="GAR-Font generation sample 5"
+                 loading="lazy"
+                 style="max-width: 100%; height: auto;" />
+          </div>
+
+          <div class="item">
+            <img src="/projects_pages/GAR_Font/static/images/sample_sheet6.png"
+                 alt="GAR-Font generation sample 6"
+                 loading="lazy"
+                 style="max-width: 100%; height: auto;" />
+          </div>
+
+          <div class="item">
+            <img src="/projects_pages/GAR_Font/static/images/sample_sheet7.png"
+                 alt="GAR-Font generation sample 7"
+                 loading="lazy"
+                 style="max-width: 100%; height: auto;" />
+          </div>
+
+          <div class="item">
+            <img src="/projects_pages/GAR_Font/static/images/sample_sheet8.png"
+                 alt="GAR-Font generation sample 8"
+                 loading="lazy"
+                 style="max-width: 100%; height: auto;" />
+          </div>
+
+          <div class="item">
+            <img src="/projects_pages/GAR_Font/static/images/sample_sheet9.png"
+                 alt="GAR-Font generation sample 9"
+                 loading="lazy"
+                 style="max-width: 100%; height: auto;" />
+          </div>
+
+          <div class="item">
+            <img src="/projects_pages/GAR_Font/static/images/sample_sheet10.png"
+                 alt="GAR-Font generation sample 10"
+                 loading="lazy"
+                 style="max-width: 100%; height: auto;" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- End Generations of GAR-Font -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <div class="bibtex-header">
+        <h2 class="title">BibTeX</h2>
+        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+          <i class="fas fa-copy"></i>
+          <span class="copy-text">Copy</span>
+        </button>
+      </div>
+      <pre id="bibtex-code"><code>@misc{cai2026patchesglobalawareautoregressivemodel,
+      title={Beyond Patches: Global-aware Autoregressive Model for Multimodal Few-Shot Font Generation}, 
+      author={Haonan Cai and Yuxuan Luo and Zhouhui Lian},
+      year={2026},
+      eprint={2601.01593},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2601.01593}, 
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
